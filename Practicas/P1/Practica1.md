@@ -14,7 +14,7 @@ http://www.ubuntugeek.com/step-by-step-ubuntu-12-04-precise-lamp-server-setup.ht
 
 En cierto punto del proceso, debemos indicarle que instale los servicios de SSH y LAMP (para disponer de acceso remoto y del servidor web):
 
-![Imagen][1]
+![Imagen][1.1]
 *Figura 1.1:Selección de los programas a instalar.*
 
 Tras la instalación de cada máquina, conviene anotar la dirección IP de la máquina virtualizada en la red virtual que se ha creado.
@@ -42,10 +42,10 @@ ps aux | grep apache
 
 A continuación mostramos una imagen del funcionamiento de este en ambas máquinas virtuales.
 
-![Imagen][2]
+![Imagen][1.2]
 *Figura 1.2: Versión y funcionamiento de apache en maquina virtual 1.*
 
-![Imagen][3]
+![Imagen][1.3]
 *Figura 1.3: Versión y funcionamiento de apache en maquina virtual 2.*
 
 Conviene así mismo disponer en ambas máquinas el comando cURL para comprobar que el servidor web está activo.
@@ -76,14 +76,14 @@ Por supuesto, debemos indicar la dirección IP de nuestra máquina servidora v
 
 A continuación se muestran las imagenes del funcionamiento de apache y el comando cURL, junto a las direcciones ip de cada una de nuestras máquinas.
 
-![Imagen][4]
+![Imagen][1.4]
 *Figura 1.4:DIrección IP y funcionamiento de cURL en maquina virtual 1.*
 
-![Imagen][5]
+![Imagen][1.5]
 *Figura 1.5:DIrección IP y funcionamiento de cURL en maquina virtual 2*
 
-[1]: Imagenes/1.png
-[2]: Imagenes/1ubuntuapache.png
-[3]: Imagenes/2ubuntuapache.png
-[4]: Imagenes/1ubuntuip:curl.png
-[5]: Imagenes/2ubuntuip:curl.png
+[1.1]: Imagenes/1.png
+[1.2]: Imagenes/1ubuntuapache.png
+[1.3]: Imagenes/2ubuntuapache.png
+[1.4]: Imagenes/1ubuntuip:curl.png
+[1.5]: Imagenes/2ubuntuip:curl.png
