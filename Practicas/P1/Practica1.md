@@ -2,9 +2,9 @@
 ## Practica 1: Preparación de las herramientas ##
 ### Alumnos: ###
 
-** Gregorio Vidoy Fajardo  **
+#### Gregorio Vidoy Fajardo  ####
 
-** Carmen Bueno Ben Boubker  **
+#### Carmen Bueno Ben Boubker  ####
 
 
 
@@ -59,13 +59,13 @@ Asimismo, si queremos una versión para Windows, la tenemos en
 http://www.paehl.com/open_source/?CURL_7.28.1
 Una vez que tengamos las máquinas instaladas y los servidores LAMP configurados, comprobaremos que Apache está funcionando. Para ello, usando un editor de texto plano, crearemos el archivo HTML llamado hola.html en el directorio /var/www
 
-
-    <HTML>
-    <BODY>
+~~~
+<HTML>
+  <BODY>
     Esto funciona :)
-    </BODY>
-    </HTML>
-
+  </BODY>
+</HTML>
+~~~
 y accederemos a él usando cURL con el comando:
 
     curl http://direccionIPdelservidor/hola.html
