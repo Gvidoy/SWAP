@@ -1,5 +1,5 @@
 # SWAP #
-## Practica 1: Preparación de las herramientas ##
+## Práctica 1: Preparación de las herramientas ##
 ### Alumnos: ###
 
 #### Gregorio Vidoy Fajardo  ####
