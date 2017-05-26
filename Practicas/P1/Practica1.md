@@ -1,9 +1,10 @@
 # SWAP #
 ## Practica 1: Preparación de las herramientas ##
-```
-Alumnos:
-Gregorio Vidoy Fajardo
-Carmen Bueno Ben Boubker```
+### Alumnos: ###
+
+** Gregorio Vidoy Fajardo  **
+
+** Carmen Bueno Ben Boubker  **
 
 
 
@@ -35,7 +36,9 @@ Una vez finalizada la instalación (mediante cualquiera de los métodos dispon
 
 y para ver si está en ejecución:
 
-+++ps aux | grep apache+++
+~~~
+ps aux | grep apache
+~~~
 
 A continuación mostramos una imagen del funcionamiento de este en ambas máquinas virtuales.
 
