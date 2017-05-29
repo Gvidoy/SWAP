@@ -30,6 +30,7 @@ openssl req --x509 --nodes --days 365 --newkey rsa:2048 --keyout
 
 *Figura 1.2:Generando he instalando certificado autofirmado server2.*
 
+
 Tras esto vamos a editar el archivo de configuración del sitio default-ssl al cual vamos a añadir las siguientes líneas:
 
 ```
@@ -43,6 +44,7 @@ SSLCertificateKeyFile /etc/apache2/ssl/apache.key
 ![Imagen][1.4]
 
 *Figura 1.4:Configuracion ssl server2.*
+
 
 Tras esto activamos el sitio default-ssl y reiniciamos apache, para ello usaremos los siguientes comandos:
 ```
@@ -60,6 +62,7 @@ Y ahora vamos a acceder al servidor web mediante el protocolo HTTPS.
 
 *Figura 1.6:Prueba https certificado autofirmado server2*
 
+
 Como se puede ver nos aparece en rojo el https, lo cual nos quiere decir que se trata de un certificado autofirmado.
 
 ### CONFIGURACIÓN DEL CORTAFUEGOS ###
@@ -71,11 +74,13 @@ A continuación vamos a mostrar los iptables de nuestro servidor.
 
 *Figura 1.7:Iptables antes de aplicar el script en server1*
 
+
 A continuación vamos a mostrar los iptables despues de ejecutar el script de nuestro servidor.
 
 ![Imagen][1.8]
 
 *Figura 1.8:Iptables despues de aplicar el script en server1*
+
 
 Despues agregamos a la configuración de inicio el script
 
