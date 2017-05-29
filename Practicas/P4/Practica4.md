@@ -57,6 +57,7 @@ Y ahora vamos a acceder al servidor web mediante el protocolo HTTPS.
 *Figura 1.5:Prueba https certificado autofirmado server1*
 
 ![Imagen][1.6]
+
 *Figura 1.6:Prueba https certificado autofirmado server2*
 
 Como se puede ver nos aparece en rojo el https, lo cual nos quiere decir que se trata de un certificado autofirmado.
@@ -67,16 +68,19 @@ Vamos a utilizar iptables, con la cual el usuario define reglas de filtrado de p
 A continuación vamos a mostrar los iptables de nuestro servidor.
 
 ![Imagen][1.7]
+
 *Figura 1.7:Iptables antes de aplicar el script en server1*
 
 A continuación vamos a mostrar los iptables despues de ejecutar el script de nuestro servidor.
 
 ![Imagen][1.8]
+
 *Figura 1.8:Iptables despues de aplicar el script en server1*
 
 Despues agregamos a la configuración de inicio el script
 
 ![Imagen][1.9]
+
 *Figura 1.9:Agregando script a inicio*
 
 
