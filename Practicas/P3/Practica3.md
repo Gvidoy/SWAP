@@ -38,6 +38,7 @@ Tras esto tendremos nginx instalado en nuestra máquina virtual.
 
 
 ![Imagen][1.1]
+
 *Figura 1.1:Ejecucion tras instalacio Nginx.*
 
 
@@ -53,6 +54,7 @@ cluster, dicho fichero que modificaremos usando el editor de texto, nano, es:
 Procederemos a configurar nginx mediante el algoritmo de round-robin, el cual consiste en asignar la misma prioridad a todos los servidores.
 
 ![Imagen][1.2]
+
 *Figura 1.2:Configuracion Nginx.*
 
 Ahora reiniciamos el servicio nginx mediante el comando
@@ -64,6 +66,7 @@ y si todo está bien configurado no nos dará ningún error.
 A continuación se muestra a el servicio nginx balanceando.
 
 ![Imagen][1.3]
+
 *Figura 1.3:AB Nginx balanceando.png.*
 
 ### PREPARANDO EL BALANCEADOR HAPROXY ###
@@ -89,6 +92,7 @@ ifconfig
 nano haproxy.cfg
 ```
 ![Imagen][1.4]
+
 *Figura 1.4:AB Configuracion haproxy.*
 
 ### COMPROBAR EL FUNCIONAMIENTO DEL BALANCEADOR ###
@@ -100,9 +104,11 @@ Una vez que está establecida la configuración de haproxy, hay que arrancarlo, 
 Si no nos muestra ningún mensaje de error es que todo ha ido bien, por lo cual ya podemos probar a realizar peticiones. Como se puede ver a continuación.
 
 ![Imagen][1.5]
+
 *Figura 1.5:Haproxy balanceando.*
 
 ![Imagen][1.6]
+
 *Figura 1.6:AB Haproxy balanceando.*
 
 ### PARTE OPCIONAL ###
@@ -162,9 +168,11 @@ systemctl start pound
 A continuación veremos qué configuración le hemos asignado:
 
 ![Imagen][1.7-1]
+
 *Figura 1.7-1:AB Configuracion pound.*
 
 ![Imagen][1.7-2]
+
 *Figura 1.7-2:AB Configuracion pound.*
 
 Una vez que está establecida la configuración de pound, hay que arrancarlo, para ello se usa el comando
@@ -174,9 +182,11 @@ systemctl start pound
 Si no nos muestra ningún mensaje de error es que todo ha ido bien, por lo cual ya podemos probar a realizar peticiones. Como se puede ver a continuación.
 
 ![Imagen][1.8]
+
 *Figura 1.8:Pound balanceando.*
 
 ![Imagen][1.9]
+
 *Figura 1.9:AB pound.*
 
 
